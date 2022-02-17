@@ -7,13 +7,13 @@ import "./styles.css";
 
 const user = {
   name: "test",
-  image: "https://unsplash.com/photos/NE0XGVKTmcA",
+  image: "https://source.unsplash.com/NE0XGVKTmcA",
   email: "testtest.com",
   phone: "124567890",
   company: {
     name: "testcompany"
   },
-  website: "dfasfasdfasdfa.com"
+  website: "tatattattatata.com"
 };
 
 export default function App() {
