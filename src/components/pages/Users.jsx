@@ -19,7 +19,7 @@ const users = [...Array(10).keys()].map((val) => {
 export const Users = () => {
   return (
     <SContainer>
-      <h2>User一覧</h2>
+      <h2>ユーザー一覧</h2>
       <SearchInput />
       <SUserArea>
         {users.map((user) => (
@@ -41,4 +41,6 @@ const SUserArea = styled.div`
   padding-top: 40px;
   width: 100%;
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
 `;
