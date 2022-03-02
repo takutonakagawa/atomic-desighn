@@ -6,7 +6,7 @@ import { UserCard } from "../organisms/user/UserCard";
 const users = [...Array(10).keys()].map((val) => {
   return {
     id: val,
-    name: `test${val}`,
+    name: `aaaa${val}`,
     image: "https://source.unsplash.com/NE0XGVKTmcA",
     email: "testtest.com",
     phone: "124567890",
